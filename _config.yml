@@ -4,7 +4,9 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Renjie
-middle_name: 
+middle_name: >
+  the ">" symbol means to ignore newlines until "last_name:"
+  you can add a middle name or initial here
 last_name: Liu
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
