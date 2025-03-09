@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
-inline: true
+date: 2024-11-02 16:11:00-0400
+inline: false
 related_posts: false
 ---
 
-A simple inline announcement.
+I am awarded the National Scholarship of China! Thanks to DBGroup@SUSTech and Prof. Bo Tang!
