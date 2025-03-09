@@ -50,12 +50,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-announcement-1",
-          title: 'Announcement_1',
+            },},{id: "news-i-am-awarded-the-national-scholarship-of-china-thanks-to-dbgroup-sustech-and-prof-bo-tang",
+          title: 'I am awarded the National Scholarship of China! Thanks to DBGroup@SUSTech and Prof....',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_1/";
-            },},{id: "news-diskgnn-is-accepted-by-sigmod-25-check-it-out-for-paper-and-code",
+          section: "News",},{id: "news-diskgnn-is-accepted-by-sigmod-25-check-it-out-for-paper-and-code",
           title: 'DiskGNN is accepted by SIGMOD’25! check it out for paper and code.',
           description: "",
           section: "News",},{id: "news-apt-is-accepted-by-ppopp-25-check-it-out-for-paper-and-code",
@@ -111,35 +109,35 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6C%69%75%72%6A%32%30%32%33@%6D%61%69%6C.%73%75%73%74%65%63%68.%65%64%75.%63%6E", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/Liu-rj", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-orcid',
+        title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://orcid.org/0009-0007-4332-2762", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=o31PMuUAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-x',
+        title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://twitter.com/Renjie1958931", "_blank");
         },
       },{
       id: 'light-theme',
