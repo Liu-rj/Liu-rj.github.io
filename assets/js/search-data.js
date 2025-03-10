@@ -43,8 +43,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-am-awarded-the-national-scholarship-of-china-thanks-to-dbgroup-sustech-and-prof-bo-tang",
-          title: 'I am awarded the National Scholarship of China! Thanks to DBGroup@SUSTech and Prof....',
+            },},{id: "news-i-am-awarded-the-china-national-scholarship-thanks-to-dbgroup-sustech-and-prof-bo-tang",
+          title: 'I am awarded the China National Scholarship! Thanks to DBGroup@SUSTech and Prof. Bo...',
           description: "",
           section: "News",},{id: "news-diskgnn-is-accepted-by-sigmod-25-check-it-out-for-paper-and-code",
           title: 'DiskGNN is accepted by SIGMOD’25! check it out for paper and code.',
