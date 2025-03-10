@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am awarded the National Scholarship of China! Thanks to DBGroup@SUSTech and Prof. Bo Tang!
+I am awarded the China National Scholarship! Thanks to DBGroup@SUSTech and Prof. Bo Tang!

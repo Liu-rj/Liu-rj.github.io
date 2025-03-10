@@ -2,6 +2,9 @@
 layout: about
 title: about
 permalink: /
+subtitle: >
+  Email: liurj2023@mail.sustech.edu.cn<br>
+  <a href='assets/pdf/CV_RenjieLIU.pdf'>CV</a>
 
 profile:
   align: right
