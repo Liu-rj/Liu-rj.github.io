@@ -1,18 +1,18 @@
 ---
 ---
 
-@proceedings{
+@article{
 jiang2025musegnn,
 title={Muse{GNN}: Forming Scalable, Convergent {GNN} Layers that Minimize a Sampling-Based Energy},
 author={Haitian Jiang and Renjie Liu and Zengfeng Huang and Yichuan Wang and Xiao Yan and Zhenkun Cai and Minjie Wang and David Wipf},
-booktitle={The Thirteenth International Conference on Learning Representations (ICLR)},
+journal={ICLR 2025},
 year={2025},
 url={https://openreview.net/forum?id=Gq7RDMeZi4},
 selected={true},
 abbr={ICLR 2025}
 }
 
-@proceedings{10.1145/3710848.3710883,
+@article{10.1145/3710848.3710883,
 author = {Ma*, Kaihao and Liu*, Renjie and Yan, Xiao and Cai, Zhenkun and Song, Xiang and Wang, Minjie and Li, Yichao and Cheng, James},
 title = {Adaptive Parallel Training for Graph Neural Networks},
 year = {2025},
@@ -22,7 +22,7 @@ address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3710848.3710883},
 doi = {10.1145/3710848.3710883},
 abstract = {There are several strategies to parallelize graph neural network (GNN) training over multiple GPUs. We observe that there is no consistent winner (i.e., with the shortest running time), and the optimal strategy depends on the graph dataset, GNN model, training algorithm, and hardware configurations. As such, we design the APT system to automatically select efficient parallelization strategies for GNN training tasks. To this end, we analyze the trade-offs of the strategies and design simple yet effective cost models to compare their execution time and facilitate strategy selection. Moreover, we also propose a general abstraction of the strategies, which allows to implement a unified execution engine that can be configured to run different strategies. Our experiments show that APT usually chooses the optimal or a close to optimal strategy, and the training time can be reduced by over 2x compared with always using a single strategy. APT is open-source at https://github.com/kaihaoma/APT.},
-booktitle = {Proceedings of the 30th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming (PPoPP)},
+journal = {PPoPP 2025, *equal contribution},
 pages = {29–42},
 numpages = {14},
 keywords = {Distributed and Parallel Training, Graph Neural Networks, Network Communication},
@@ -50,7 +50,7 @@ selected={true},
 abbr={SIDMOG 2025}
 }
 
-@proceedings{10.1145/3600006.3613168,
+@article{10.1145/3600006.3613168,
 author = {Gong, Ping and Liu, Renjie and Mao, Zunyao and Cai, Zhenkun and Yan, Xiao and Li, Cheng and Wang, Minjie and Li, Zhuozhao},
 title = {gSampler: General and Efficient GPU-based Graph Sampling for Graph Learning},
 year = {2023},
@@ -60,7 +60,7 @@ address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3600006.3613168},
 doi = {10.1145/3600006.3613168},
 abstract = {Graph sampling prepares training samples for graph learning and can dominate the training time. Due to the increasing algorithm diversity and complexity, existing sampling frameworks are insufficient in the generality of expression and the efficiency of execution. To close this gap, we conduct a comprehensive study on 15 popular graph sampling algorithms to motivate the design of gSampler, a general and efficient GPU-based graph sampling framework. gSampler models graph sampling using a general 4-step Extract-Compute-Select-Finalize (ECSF) programming model, proposes a set of matrix-centric APIs that allow to easily express complex graph sampling algorithms, and incorporates a data-flow intermediate representation (IR) that translates high-level API codes for efficient GPU execution. We demonstrate that implementing graph sampling algorithms with gSampler is easy and intuitive. We also conduct extensive experiments with 7 algorithms, 4 graph datasets, and 2 hardware configurations. The results show that gSampler introduces sampling speedups of 1.14--32.7\texttimes{} and an average speedup of 6.54\texttimes{}, compared to state-of-the-art GPU-based graph sampling systems such as DGL, which translates into an overall time reduction of over 40\% for graph learning. gSampler is open-source at https://tinyurl.com/29twthd4.},
-booktitle = {Proceedings of the 29th Symposium on Operating Systems Principles (SOSP)},
+journal = {SOSP 2023},
 pages = {562–578},
 numpages = {17},
 keywords = {graph neural network, graph sampling, graph learning, graphics processing unit},
