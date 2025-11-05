@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: >
   Email: liurj2023@mail.sustech.edu.cn<br>
-  <a href='assets/pdf/CV_RenjieLIU.pdf'>CV</a>
+  <a href='assets/pdf/CV_RenjieLIU.pdf'>CV</a> | <a href='https://scholar.google.com/citations?user=o31PMuUAAAAJ&hl=en'>Google Scholar</a> | <a href='https://github.com/Liu-rj'>GitHub</a>
 
 profile:
   align: right
