@@ -52,6 +52,9 @@ ninja.data = [{
           section: "News",},{id: "news-apt-is-accepted-by-ppopp-25-check-it-out-for-paper-and-code",
           title: 'APT is accepted by PPoPP’25! Check it out for paper and code.',
           description: "",
+          section: "News",},{id: "news-our-proposed-new-benchmark-polybench-and-framework-polyg-for-graphrag-are-released-check-it-out-for-paper-and-code",
+          title: 'Our proposed new benchmark (PolyBench) and framework (PolyG) for GraphRAG are released! Check...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
