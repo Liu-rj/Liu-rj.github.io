@@ -1,6 +1,39 @@
 ---
 ---
 
+@article{10.1145/3837104,
+  author     = {Xu, Jie and Liu, Renjie and Li, Yi and Tang, Bo},
+  title      = {CatKV: Accelerating Position-Independent Caching with Context-Adaptive KV Cache Compression},
+  year       = {2026},
+  issue_date = {September 2026},
+  publisher  = {Association for Computing Machinery},
+  address    = {New York, NY, USA},
+  volume     = {4},
+  number     = {4},
+  url        = {https://doi.org/10.1145/3837104},
+  doi        = {10.1145/3837104},
+  abstract   = {Context caching is widely adopted to reduce the dominant prefill cost for long prompts across various large language model (LLM) applications. Recently, position-independent caching (PIC) has emerged to improve KV cache reuse beyond strict prefix matching. However, the required KV caches often reside in a persistent remote store in realistic deployments, making KV transfer the new bottleneck on time-to-first-token (TTFT). Existing KV compression techniques are primarily designed for long contexts. Since text chunks in PIC are much smaller, they fail to deliver sufficient compression and/or lead to substantial generation quality degradation.In this work, we propose CatKV, an end-to-end PIC serving system for efficient KV cache reuse. Specifically, we devise a context-adaptive mixed-precision compression scheme in CatKV, which combines SVD factorization with adaptive scalar quantization in latent space. Given a target compression ratio, CatKV automatically determines the SVD and quantization configurations by analyzing the singular-value spectrum using the elbow method. To improve system efficiency, CatKV offloads online compression of cold text chunks to the CPU for asynchronous execution and exploits grouped factorization across chunks to further reduce storage consumption. Furthermore, CatKV introduces a six-stage layer-wise pipeline to reduce end-to-end latency. Extensive experiments demonstrate the superiority of CatKV across 3 PIC algorithms, 4 benchmarks, and 3 LLMs. In particular, CatKV achieves 2–5{\texttimes} faster TTFT and 6–10{\texttimes} higher compression ratios compared to baselines, all while preserving model accuracy. CatKV is open-source at https://github.com/AlayaDB-AI/CatKV.git.},
+  journal    = {SIGMOD 2027},
+  month      = sep,
+  articleno  = {266},
+  numpages   = {27},
+  keywords   = {kv cache compression, position-independent caching, inference acceleration, large language models},
+  selected   = {true},
+  abbr       = {SIGMOD 2027},
+  pdf        = {catkv.pdf}
+}
+
+@article{li2026fix,
+  title    = {FiX: Introducing Fine-grained Forget Gate into Softmax Attention},
+  author   = {Runzhong Li and Renjie Liu and Li Qing and Bo Tang},
+  journal  = {ICML 2026},
+  year     = {2026},
+  url      = {https://openreview.net/forum?id=WsNpCXq6SG},
+  selected = {true},
+  abbr     = {ICML 2026},
+  pdf      = {fix.pdf}
+}
+
 @article{liu2025polygeffectiveefficientgraphrag,
   title    = {PolyG: Adaptive Graph Traversal for Diverse GraphRAG Questions},
   author   = {Renjie Liu and Haitian Jiang and Xiao Yan and Bo Tang and Jinyang Li},
@@ -10,6 +43,18 @@
   selected = {true},
   abbr     = {Arxiv 2025},
   pdf      = {polyg.pdf}
+}
+
+@article{Yuan2026EfficientND,
+  title   = {Efficient Neural-Symbolic Data System via Multi-Agent Collaboration},
+  author  = {Ye Yuan and Bo Tang and Zhaojing Luo and Zhilang Wei and others},
+  journal = {ICDE 2026},
+  year    = {2026},
+  pages   = {4227-4238},
+  doi     = {10.1109/ICDE65706.2026.00331},
+  selected = {true},
+  abbr     = {ICDE 2026},
+  pdf      = {nsds.pdf}
 }
 
 @article{10.1145/3709738,

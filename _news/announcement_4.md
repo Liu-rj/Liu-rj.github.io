@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-11-09 21:19:00-0400
+date: 2026-05-01 21:19:00-0400
 inline: true
 related_posts: false
 ---
 
-Our new benchmark (PolyBench) and framework (PolyG) for GraphRAG are released! Check it out for [paper](https://arxiv.org/abs/2504.02112) and [code](https://github.com/Liu-rj/PolyG).
+Fix, the first V-O positional encoding for softmax attention, is accepted by ICML'26! Check it out for [paper](https://openreview.net/pdf?id=WsNpCXq6SG) and [code](https://github.com/AlayaDB-AI/FiX).
