@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-DiskGNN, an out-of-core GNN training system, is accepted by SIGMOD'25! check it out for [paper](https://dl.acm.org/doi/10.1145/3709738) and [code](https://github.com/Liu-rj/DiskGNN).
+DiskGNN, an out-of-core GNN training system, is accepted by SIGMOD'25! check it out for [paper](/assets/pdf/diskgnn.pdf) and [code](https://github.com/Liu-rj/DiskGNN).

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-APT, a distributed GNN training system, is accepted by PPoPP'25! Check it out for [paper](https://dl.acm.org/doi/10.1145/3710848.3710883) and [code](https://github.com/kaihaoma/APT).
+APT, a distributed GNN training system, is accepted by PPoPP'25! Check it out for [paper](/assets/pdf/apt.pdf) and [code](https://github.com/kaihaoma/APT).
