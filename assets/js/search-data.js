@@ -43,27 +43,27 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-diskgnn-an-out-of-core-gnn-training-system-is-accepted-by-sigmod-25-check-it-out-for-paper-and-code",
-          title: 'DiskGNN, an out-of-core GNN training system, is accepted by SIGMOD’25! check it out...',
+            },},{id: "news-diskgnn-out-of-core-gnn-training-accepted-at-sigmod-25-paper-code",
+          title: 'DiskGNN (out-of-core GNN training) accepted at SIGMOD ‘25. Paper · Code',
           description: "",
-          section: "News",},{id: "news-apt-a-distributed-gnn-training-system-is-accepted-by-ppopp-25-check-it-out-for-paper-and-code",
-          title: 'APT, a distributed GNN training system, is accepted by PPoPP’25! Check it out...',
+          section: "News",},{id: "news-apt-distributed-gnn-training-accepted-at-ppopp-25-paper-code",
+          title: 'APT (distributed GNN training) accepted at PPoPP ‘25. Paper · Code',
           description: "",
-          section: "News",},{id: "news-the-new-benchmark-polybench-and-framework-polyg-for-graphrag-are-released-check-it-out-for-paper-and-code",
-          title: 'The new benchmark (PolyBench) and framework (PolyG) for GraphRAG are released! Check it...',
+          section: "News",},{id: "news-polybench-and-polyg-for-graphrag-released-paper-code",
+          title: 'PolyBench and PolyG for GraphRAG released. Paper · Code',
           description: "",
-          section: "News",},{id: "news-fix-the-first-v-o-positional-encoding-for-softmax-attention-is-accepted-by-icml-26-check-it-out-for-paper-and-code",
-          title: 'Fix, the first V-O positional encoding for softmax attention, is accepted by ICML’26!...',
+          section: "News",},{id: "news-fix-v-o-positional-encoding-accepted-at-icml-26-paper-code",
+          title: 'Fix (V-O positional encoding) accepted at ICML ‘26. Paper · Code',
           description: "",
-          section: "News",},{id: "news-catkv-a-new-kv-caching-system-for-llm-serving-is-accepted-by-sigmod-27-check-it-out-for-paper-and-code",
-          title: 'CatKV, a new KV caching system for LLM serving, is accepted by SIGMOD’27!...',
+          section: "News",},{id: "news-catkv-llm-kv-caching-accepted-at-sigmod-27-paper-code",
+          title: 'CatKV (LLM KV caching) accepted at SIGMOD ‘27. Paper · Code',
           description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6C%69%75%72%6A%32%30%32%33@%6D%61%69%6C.%73%75%73%74%65%63%68.%65%64%75.%63%6E", "_blank");
+          window.open("mailto:%72%65%6E%6A%69%65@%63%73%61%69%6C.%6D%69%74.%65%64%75", "_blank");
         },
       },{
         id: 'social-github',
@@ -77,7 +77,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/renjieliu123", "_blank");
+          window.open("https://www.linkedin.com/in/renjieu", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -98,7 +98,7 @@ ninja.data = [{
         title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("https://twitter.com/Renjie1958931", "_blank");
+          window.open("https://twitter.com/renjie__liu", "_blank");
         },
       },{
       id: 'light-theme',
