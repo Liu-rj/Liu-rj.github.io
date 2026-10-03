@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Fix, the first V-O positional encoding for softmax attention, is accepted by ICML'26! Check it out for [paper](/assets/pdf/fix.pdf) and [code](https://github.com/AlayaDB-AI/FiX).
+Fix (V-O positional encoding) accepted at ICML '26. [Paper](/assets/pdf/fix.pdf) · [Code](https://github.com/AlayaDB-AI/FiX)

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The new benchmark (PolyBench) and framework (PolyG) for GraphRAG are released! Check it out for [paper](https://arxiv.org/abs/2504.02112) and [code](https://github.com/Liu-rj/PolyG).
+PolyBench and PolyG for GraphRAG released. [Paper](https://arxiv.org/abs/2504.02112) · [Code](https://github.com/Liu-rj/PolyG)
